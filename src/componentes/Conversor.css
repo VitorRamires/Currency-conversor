@@ -1,0 +1,36 @@
+
+body{
+    background:rgba(87, 85, 85, 0.596);
+}
+
+
+.linha{
+    display:flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+button{
+    height: 35px;
+    border-radius:10px;
+    border:0;
+    margin-left:10px;
+    
+}
+
+input{
+    border-radius: 10px;
+    border:0;
+    height: 35px;
+    padding:5px;
+}
+
+.App{
+max-width: 800px;
+margin:0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
