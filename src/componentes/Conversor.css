@@ -1,6 +1,7 @@
 
 body{
-    background:rgba(87, 85, 85, 0.596);
+    background:rgb(10, 143, 10);
+    font-family: 'Mukta', sans-serif;
 }
 
 
@@ -11,11 +12,19 @@ body{
 }
 
 button{
-    height: 35px;
+    height: 45px;
     border-radius:10px;
     border:0;
     margin-left:10px;
+    background:rgb(41, 97, 202);
+    color:white;
+    cursor: pointer;
     
+}
+
+button:hover{
+    background:rgb(35, 80, 163);
+
 }
 
 input{
@@ -23,6 +32,11 @@ input{
     border:0;
     height: 35px;
     padding:5px;
+    outline:0;
+}
+
+input:focus{
+    background:rgba(245, 241, 241, 0.801);
 }
 
 .App{
@@ -32,5 +46,21 @@ margin:0 auto;
 
 h1{
     text-align: center;
+    color:white;
+
 }
+
+h2{
+    border-bottom:2px solid yellow;
+    padding-bottom:3px;
+    color:white;
+   
+}
+
+p{
+    font-size: 19px;
+    color:white;
+}
+
+
 
