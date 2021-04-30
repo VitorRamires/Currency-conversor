@@ -1,6 +1,6 @@
 
 body{
-    background:rgb(10, 143, 10);
+    background:rgb(116, 79, 25);
     font-family: 'Mukta', sans-serif;
 }
 
@@ -16,14 +16,14 @@ button{
     border-radius:10px;
     border:0;
     margin-left:10px;
-    background:rgb(41, 97, 202);
+    background:rgb(182, 155, 36);
     color:white;
     cursor: pointer;
     
 }
 
 button:hover{
-    background:rgb(35, 80, 163);
+    background:rgb(218, 180, 12);
 
 }
 
@@ -36,7 +36,7 @@ input{
 }
 
 input:focus{
-    background:rgba(245, 241, 241, 0.801);
+   background:rgb(201, 195, 195);
 }
 
 .App{
